@@ -1,8 +1,26 @@
+macro_open_pycharm: macro_open_pycharm{
+compatible = "zmk,behavior-macro";
+label = "macro_open_pycharm";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp P>, <&kp ENTER>;
+};
+macro_open_notepad: macro_open_notepad{
+compatible = "zmk,behavior-macro";
+label = "macro_open_notepad";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp N>, <&kp ENTER>;
+};
+macro_open_quant: macro_open_quant{
+compatible = "zmk,behavior-macro";
+label = "macro_open_quant";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp Q>, <&kp ENTER>;
+};
 macro_open_exel: macro_open_exel{
 compatible = "zmk,behavior-macro";
 label = "macro_open_exel";
 #binding-cells = <0>;
-bindings = <&kp C_AL_WWW>;
+bindings = <&kp LGUI>, <&kp E>, <&kp ENTER>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
